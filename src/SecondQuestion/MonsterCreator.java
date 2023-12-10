@@ -16,7 +16,7 @@ class Monster {
     public Monster(String eyeColor, String featherColor, boolean magicalAbilities,
                    int size, int strength, int durability, String weakness, int aggressionLevel) {
         this.eyeColor = eyeColor;
-        //this.featherColor = featherColor;
+        this.featherColor = featherColor;
         this.magicalAbilities = magicalAbilities;
         this.size = size;
         this.strength = strength;
